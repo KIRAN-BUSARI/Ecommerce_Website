@@ -20,7 +20,7 @@ PORT = process.env.PORT || 8080;
 // Run Listen
 app.listen(PORT, () => {
   console.log(
-    `Server is Running on ${process.env.DEV_MODE} mode on port ${PORT}`.bgCyan
+    `Server is Running on ${process.env.DEV_MODE} mode on port ${PORT}`.bgBlack
       .white
   );
 });
